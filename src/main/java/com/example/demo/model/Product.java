@@ -1,4 +1,4 @@
-package com.example.demo.model;
+/*package com.example.demo.model;
 
 import javax.persistence.Entity;
 
@@ -37,4 +37,4 @@ public class Product {
     public void setDescription(String description) {
         this.description = description;
     }
-}
+}*/

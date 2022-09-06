@@ -1,4 +1,4 @@
-package com.example.demo.controller;
+/*package com.example.demo.controller;
 
 import com.example.demo.model.Product;
 import org.springframework.http.HttpStatus;
@@ -59,5 +59,5 @@ public class ProductController {
         return productsRepo;
     }
 
-}
+}*/
 
