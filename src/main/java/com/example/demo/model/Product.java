@@ -1,5 +1,8 @@
 package com.example.demo.model;
 
+import javax.persistence.Entity;
+
+@Entity
 public class Product {
     private long id;
     private String name;
