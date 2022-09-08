@@ -6,32 +6,34 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "")
+@Table(name = "course")
 public class Course {
 
     @Id
     @Column(name = "course_code")
-    private String id;
+    private String courseCode;
 
-    private String name;
+    @Column(name = "course_name")
+    private String courseName;
 
+    @Column(name = "hours")
     private Integer hours;
 
 
-    public String getId() {
-        return id;
+    public String getCourseCode() {
+        return courseCode;
     }
 
-    public void setId(String id) {
-        this.id = id;
+    public void setCourseCode(String id) {
+        this.courseCode = courseCode;
     }
 
     public String getCourseName() {
-        return name;
+        return courseName;
     }
 
     public void setCourseName(String name) {
-        this.name = name;
+        this.courseName = name;
     }
 
     public Integer getHours() {
